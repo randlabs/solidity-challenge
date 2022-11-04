@@ -13,6 +13,7 @@ A gambling app is a service where the people can bet to their favorite team for 
 - Everyone can create a match but only the owner/creator of the contract can withdraw the fees.
 - Only the creator of the event can set the match result.
 - If a match is canceled, you must return the amount betted from the users or allow the users to withdraw their betted amount.
+- The user can only withdraw their rewards after the creator set the result of the match.
 
 ### Example
 
@@ -22,7 +23,7 @@ Lets say that there are 2 users, User A and User B, and two teams, Team X and Te
 
 - You can use any library like truffle to develop this challenge.
 - Write tests. Make sure that all your code is tested properly.
-- Create a script in Javascript to interact with the contract, prefereable to implement it using _ethers.js_.
+- Create a script in Javascript to interact with the contract, prefereable implement it using _ethers.js_.
 
 ### Nice to have
 
