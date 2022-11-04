@@ -14,6 +14,7 @@ A gambling app is a service where the people can bet to their favorite team for 
 - Only the creator of the event can set the match result.
 - If a match is canceled, you must return the amount betted from the users or allow the users to withdraw their betted amount.
 - The user can only withdraw their rewards after the creator set the result of the match.
+- The smart contract must use an ERC20 token previously created with the same characteristics as the USDC token.
 
 ### Example
 
@@ -21,7 +22,7 @@ Lets say that there are 2 users, User A and User B, and two teams, Team X and Te
 
 ### Requirements
 
-- You can use any library like truffle to develop this challenge.
+- Design and code a contract for Sport Gambling app, take all the assumptions you need to move forward. You can use any library like truffle to develop this challenge.
 - Write tests. Make sure that all your code is tested properly.
 - Create a script in Javascript to interact with the contract, prefereable implement it using _ethers.js_.
 
