@@ -1,4 +1,4 @@
-# RandLabs Solidity Challenge
+# Rand Labs Solidity Challenge
 
 ## Sport Gambling  
   
